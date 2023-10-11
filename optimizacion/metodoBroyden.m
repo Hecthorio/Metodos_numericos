@@ -1,7 +1,7 @@
-%MÈtodo de Broyden
+%M√©todo de Broyden
 %25/04/2018
 %Tec de Celaya
-%HÈctor el espartano Olmos!! AUH! AUH! AUH!
+%H√©ctor el espartano Olmos!! AUH! AUH! AUH!
 
 clear all
 clc
@@ -52,7 +52,7 @@ while error > 0.00001
     pari = par;
     par = par - An*bn;
     Ai = An;
-    %calculo de diferencia de las variables hasta que no cambien m·s
+    %calculo de diferencia de las variables hasta que no cambien m√°s
     error = sum((pari - par).^2);
     k = k + 1;
 end
