@@ -1,6 +1,6 @@
 %Newton Raphson multivariables modificado
 %24/04/2018
-%HÈctor el espartano Olmos!! AUH! AUH! AUH!
+%H√©ctor el espartano Olmos!! AUH! AUH! AUH!
 
 clear all
 clc
@@ -37,7 +37,7 @@ while error > 0.0001
         par(i) = par(i) - b1(i)/A(i,i);
         bo = b(par);
     end
-    %calculo de diferencia de las variables hasta que no cambien m·s
+    %calculo de diferencia de las variables hasta que no cambien m√°s
     error = sum((pari - par).^2);
     pari = par;
     k = k + 1;
