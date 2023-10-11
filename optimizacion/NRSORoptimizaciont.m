@@ -1,6 +1,6 @@
 %Newton Raphson multivariables modificado
 %26/04/2018
-%Héctor el espartano Olmos!! AUH! AUH! AUH!
+%HÃ©ctor el espartano Olmos!! AUH! AUH! AUH!
 
 clear all
 clc
